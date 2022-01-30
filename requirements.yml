@@ -1,0 +1,13 @@
+name: quackd
+channels:
+  - defaults
+dependencies:
+  - jupyter
+  - matplotlib
+  - numpy
+  - pip
+  - python=3.9
+  - pip:
+    - qiskit
+    - quantuminspire
+    - slack-bolt
